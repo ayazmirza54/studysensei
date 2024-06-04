@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
-
+import { GrArticle } from "react-icons/gr";
+import { FaGithub } from "react-icons/fa";
 function LearningAssistant() {
   const [topic, setTopic] = useState("");
   const [quizData, setQuizData] = useState(null);

@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import axios from "axios";
 import ReactMarkdown from "react-markdown";
-
+import { GrArticle } from "react-icons/gr";
+import { FaGithub } from "react-icons/fa";
 function Articlegenerator() {
   const [topic, setTopic] = useState("");
   const [article, setArticle] = useState("");
