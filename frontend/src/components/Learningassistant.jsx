@@ -66,20 +66,14 @@ function LearningAssistant() {
       <header className="text-[#21888E] body-font">
         <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
           <a className="flex  items-center text-[#21888E] mb-4 md:mb-0">
-            <span className="ml-3 text-2xl">🧠 StudySensei</span>
+            <span className="ml-3 text-4xl">🧠 StudySensei</span>
           </a>
           <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
-            <a className="mr-5 hover:text-[#000000] text-xl cursor-pointer">
-              About
+            <a className="mr-5 hover:text-[#000000] text-xl cursor-pointer blog">
+            <GrArticle className="inline-block m-2" /> Blog
             </a>
-            <a className="mr-5 hover:text-[#000000] text-xl cursor-pointer">
-              Contact Us
-            </a>
-            <a className="mr-5 hover:text-[#000000] text-xl cursor-pointer">
-              Blog
-            </a>
-            <a className="mr-5 hover:text-[#000000] text-xl cursor-pointer">
-              Github
+            <a className="mr-5 hover:text-[#000000] text-xl cursor-pointer github">
+            <FaGithub className="inline-block m-2"/> Github
             </a>
           </nav>
         </div>
