@@ -19,7 +19,7 @@ function LearningAssistant() {
     setLoading(true);
     setError(null);
     try {
-      const response = await axios.post("http://localhost:3000/learn", {
+      const response = await axios.post("https://studysensei.onrender.com/learn", {
         topic,
       });
       setQuizData(response.data);

@@ -14,7 +14,7 @@ function Articlegenerator() {
     setLoading(true);
     setError(null);
     try {
-      const response = await axios.post("http://localhost:3000/article", {
+      const response = await axios.post("https://studysensei.onrender.com/article", {
         topic,
       });
       setArticle(response.data);
